@@ -1,8 +1,9 @@
 module.exports = {
-    dialect : 'mysql',
+    dialect : 'postgres',
     host: 'localhost',
-    username: 'root',
-    password: '',
+    port: '3333',
+    username: 'postgres',
+    password: 'ab290499',
     database: 'sqlnode',
     define: {
         // created_at, updated_at
