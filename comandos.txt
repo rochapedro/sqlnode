@@ -1,2 +1,4 @@
 npx sequelize db:create - para criar o banco de dados
-npx sequelize migration:create --name=create-users - para criar a tabela users
+npx sequelize migrate:create --name=create-users - para criar a tabela users
+npx sequelize db:migrate - para criar as tabelas 
+npx sequelize db:migrate:undo - para desfazer a última migrate
